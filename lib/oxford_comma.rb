@@ -13,3 +13,4 @@ end
 str << "and #{array[array.length - 1]}"
 return str
 end
+end
