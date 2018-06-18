@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     until counter == array.length - 1 
       str << "#{array[counter]}, "
-      i+=1
+      counter+=1
     end
     str << "and #{array[array.length - 1]}"
     return str
